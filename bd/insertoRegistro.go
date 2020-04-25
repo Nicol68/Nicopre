@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/ptilotta/twittor/models"
+	"github.com/Nicol68/Nicopre/models"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
@@ -14,7 +14,7 @@ func InsertoRegistro(u models.Usuario) (string, bool, error) {
 	ctx, cancel := context.WithTimeout(context.Background(), 15*time.Second)
 	defer cancel()
 
-	db := MongoCN.Database("twittor")
+	db := MongoCN.Database("nicopre")
 	col := db.Collection("usuarios")
 
 	u.Password, _ = EncriptarPassword(u.Password)

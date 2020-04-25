@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ptilotta/twittor/bd"
-	"github.com/ptilotta/twittor/models"
+	"github.com/Nicol68/Nicopre/bd"
+	"github.com/Nicol68/Nicopre/models"
 )
 
 /*SubirAvatar sube el Avatar al servidor */

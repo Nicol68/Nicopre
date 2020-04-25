@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ptilotta/twittor/bd"
-	"github.com/ptilotta/twittor/models"
+	"github.com/Nicol68/Nicopre/bd"
+	"github.com/Nicol68/Nicopre/models"
 )
 
 /*GraboTweet permite grabar el tweet en la base de datos */

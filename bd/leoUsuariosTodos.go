@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/ptilotta/twittor/models"
+	"github.com/Nicol68/Nicopre/models"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
@@ -15,7 +15,7 @@ func LeoUsuariosTodos(ID string, page int64, search string, tipo string) ([]*mod
 	ctx, cancel := context.WithTimeout(context.Background(), 15*time.Second)
 	defer cancel()
 
-	db := MongoCN.Database("twittor")
+	db := MongoCN.Database("nicopre")
 	col := db.Collection("usuarios")
 
 	var results []*models.Usuario

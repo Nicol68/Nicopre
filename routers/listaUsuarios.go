@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/ptilotta/twittor/bd"
+	"github.com/Nicol68/Nicopre/bd"
 )
 
 /*ListaUsuarios leo la lista de los usuarios */

@@ -3,7 +3,7 @@ package middlew
 import (
 	"net/http"
 
-	"github.com/ptilotta/twittor/routers"
+	"github.com/Nicol68/Nicopre/routers"
 )
 
 /*ValidoJWT permite validar el JWT que nos viene en la petición */

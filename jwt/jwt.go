@@ -4,7 +4,7 @@ import (
 	"time"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/ptilotta/twittor/models"
+	"github.com/Nicol68/Nicopre/models"
 )
 
 /*GeneroJWT genera el encriptado con JWT */

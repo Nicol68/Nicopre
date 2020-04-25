@@ -3,8 +3,8 @@ package routers
 import (
 	"net/http"
 
-	"github.com/ptilotta/twittor/bd"
-	"github.com/ptilotta/twittor/models"
+	"github.com/Nicol68/Nicopre/bd"
+	"github.com/Nicol68/Nicopre/models"
 )
 
 /*AltaRelacion realiza el registro de la relacion entre usuarios */

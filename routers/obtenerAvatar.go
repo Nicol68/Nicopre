@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/ptilotta/twittor/bd"
+	"github.com/Nicol68/Nicopre/bd"
 )
 
 /*ObtenerAvatar envia el Avatar al HTTP */
